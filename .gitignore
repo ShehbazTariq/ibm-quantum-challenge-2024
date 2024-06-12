@@ -3,3 +3,6 @@
 # jupyter notebook
 __pycache__/
 .ipynb_checkpoints
+content/lab_3/lab-3-circuit-knitting.ipynb
+content/lab_3/lab-3-circuit-knitting.ipynb
+content/lab_3/transpile_parallel/transpile_parallel.py
