@@ -28,8 +28,8 @@ optimization_levels = [1,2,3]
 pass_managers = [generate_preset_pass_manager(optimization_level=level, backend=backend) for level in optimization_levels]
 
 transpiler_services = [
-        TranspilerService(ai=False),
-        TranspilerService(ai=True ),
+        TranspilerService(backend_name=backend.name, optimization_level=3, ai=False),
+        TranspilerService(backend_name=backend.name, optimization_level=3, ai=True ),
     ]
 
 configs = pass_managers + transpiler_services
